@@ -1,7 +1,7 @@
 import { showToast, Toast } from "@raycast/api";
 import { brewUpgradeAll } from "./brew";
 import { preferences } from "./preferences";
-import { showActionToast, showFailureToast } from "./utils";
+import { showActionToast, showFailureToast, wait } from "./utils";
 
 export default async (): Promise<void> => {
   try {
@@ -16,7 +16,3 @@ export default async (): Promise<void> => {
     await wait(3000);
   }
 };
-
-async function wait(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
