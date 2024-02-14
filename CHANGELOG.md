@@ -1,8 +1,12 @@
 # Brew Changelog
 
-## [Upgrades] - 2024-02-11
+## [Improvements] - 2024-02-11
 
 - Add `cleanup` command
+
+## [Improvements] - 2024-01-10
+
+- Added `Quarantine` preference to enable or disable quarantine of files downloaded by brew
 
 ## [Bug fix] - 2022-12-01
 
